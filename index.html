@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Product Shop</title>
+    
+</head>
+<body>
+    <h1>Sarah's Ice cream store</h1>
+    <div id="productsContainer">
+        <div class="productItems"> 
+            <div class="productCard" >
+                <h3>Vanilla</h3>
+                <p>Price: $10</p>
+                <button onclick="addToOrder('Product 1')">Add to Order</button>
+            </div>
+            <div class="productCard" >
+                <h3>Strawberry</h3>
+                <p>Price: $12</p>
+                <button onclick="addToOrder('Product 2')">Add to Order</button>
+            </div>
+            <div class="productCard">
+                <h3>Hazelnut</h3>
+                <p>Price: $15</p>
+                <button onclick="addToOrder('Product 3')">Add to Order</button>
+            </div>
+        </div>
+        
+        <button onclick="checkout()">Checkout</button>
+        
+        <div id="receiptContainer" class="hidden"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>

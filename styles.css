@@ -1,0 +1,64 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    /* display: flex; */
+    justify-content:center;
+    align-items: center;
+    height: 100vh;
+    background-color: #f5f5f5;
+}
+
+#productsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    align-items: center;
+    flex-direction: column;
+    justify-content:center;
+    padding: 20px;
+}
+.productItems{
+    display: flex;
+}
+.productCard {
+    border: 1px solid #ccc;
+    padding: 10px;
+    text-align: center;
+    width: 200px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    transition: transform 0.2s ease-in-out;
+}
+
+.productCard:hover {
+    transform: scale(1.05);
+}
+
+button {
+    margin-top: 10px;
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 4px;
+    cursor: pointer;
+    align-items: center;
+    justify-content:center;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+#receiptContainer {
+    max-width: 400px;
+    padding: 20px;
+    margin: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    align-items: center;
+    justify-content:center;
+}
